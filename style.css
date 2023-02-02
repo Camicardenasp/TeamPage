@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Poppins&display=swap');
+html{background-color: #333333;}
+body {
+	/* Team mobile */
+	min-width: 375px;
+	margin: 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+h1 {
+	/* The creative crew */
+	font-family: 'PT Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -0.045em;
+	color: #000000;
+}
+header {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 60px 0 0 20px;
+}
+h2 {
+	/* Who we are */
+	font-family: 'Poppins';
+	font-style: bold;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+	/* identical to box height */
+	text-transform: uppercase;
+	color: #000000;
+	padding: 0 20px;
+}
+#we_are {
+	/* We are team of creatively diverse. driven. innovative individuals working in various locations from the world. */
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+	padding: 0 20px;
+	max-width: 300px;
+}
+.team {
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
+}
+.perfil {
+	padding: 20px;
+}
+.par{
+	transform: translate(0px, 50px);
+}
+.pic {
+	max-width: 139px;
+}
+.cargo {	
+	position: absolute;
+	font-family: 'PT Serif';
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #000000;
+	margin: 0px;
+	transform: rotate(90deg) translate(-172px, -120px);
+}
+.uno .cargo {
+	transform: rotate(90deg) translate(-162px, -110px);
+}
+.tres .cargo, .cinco .cargo, .seis .cargo {
+	transform: rotate(90deg) translate(-175px, -125px);
+}
+.name {
+	/* Bill Mahoney */
+	font-family: 'Poppins';
+	font-size: 14px;
+	color: #000000;
+	margin: 0;
+}
+.copyright {
+	position: sticky;
+	align-self: flex-end;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+	margin-top: 150px;
+	padding: 20px;
+    text-align: center;
+    color: #BDBDBD;
+}
+#github {
+	color: #BDBDBD;
+}
+
+@media only screen and (min-width: 676px) and (max-width: 970px) {
+	.par{
+	transform: translate(0px, 105px);
+	}
+	.perfil {
+	padding: 40px;
+	}
+	.pic {
+	max-width: 238px;
+	}
+	.cargo {
+		font-size: 12px;
+		transform: rotate(90deg) translate(-312px, -215px);
+	}
+	.uno .cargo {
+		transform: rotate(90deg) translate(-298px, -204px);
+	}
+	.tres .cargo, .cinco .cargo, .seis .cargo {
+		transform: rotate(90deg) translate(-315px, -223px);
+	}
+	.name {
+		font-size: 18px;
+	}
+	.description{
+		padding-top: 20px;
+		padding-left: 30px;
+	}
+
+}
+
+@media only screen and (min-width: 971px) and (max-width: 1196px) {
+	.team {
+		display: grid;
+	  	grid-template-columns: 1fr 1fr 1fr;
+	  	grid-template-rows: 1fr 1fr;
+	}
+	.par{
+	transform: translate(0px, 0px);
+	}
+	.medio {
+		transform: translate(0px, 105px);
+	}
+	.perfil {
+	padding: 40px;
+	}
+	.pic {
+	max-width: 238px;
+	}
+	.cargo {
+		font-size: 12px;
+		transform: rotate(90deg) translate(-312px, -215px);
+	}
+	.uno .cargo {
+		transform: rotate(90deg) translate(-298px, -204px);
+	}
+	.tres .cargo, .cinco .cargo, .seis .cargo {
+		transform: rotate(90deg) translate(-315px, -223px);
+	}
+	.name {
+		font-size: 18px;
+	}
+	.description{
+		padding-top: 20px;
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (min-width: 1196px) {
+	body {
+		padding: 0 0 0 200px;
+		max-width: 1510px;
+	}
+	.team {
+		display: grid;
+	  	grid-template-columns: 1fr 1fr 1fr;
+	  	grid-template-rows: 1fr 1fr;
+	}
+	.par{
+	transform: translate(0px, 0px);
+	}
+	.medio {
+		transform: translate(0px, 105px);
+	}
+	.perfil {
+	padding: 40px;
+	}
+	.pic {
+	max-width: 238px;
+	}
+	.cargo {
+		font-size: 12px;
+		transform: rotate(90deg) translate(-312px, -215px);
+	}
+	.uno .cargo {
+		transform: rotate(90deg) translate(-298px, -204px);
+	}
+	.tres .cargo, .cinco .cargo, .seis .cargo {
+		transform: rotate(90deg) translate(-315px, -223px);
+	}
+	.name {
+		font-size: 18px;
+	}
+	.description{
+		padding-top: 20px;
+		padding-left: 30px;
+	}
+}
